@@ -1,0 +1,16 @@
+{
+  "name": "aintogeny-homepage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static homepage for aintogeny.com.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "check": "npm run validate && npm run build",
+    "start": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
